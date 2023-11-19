@@ -1,0 +1,28 @@
+h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2C3E50;
+    margin-bottom: 20px;
+}
+
+.favorite-icon {
+    cursor: pointer;
+    float: right;
+    margin-top: -20px;
+    font-size: 24px;
+}
+
+.card-obra {
+    padding: 10px;
+}
+
+.obra-container {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.obra-title {
+    font-weight: bold;
+}

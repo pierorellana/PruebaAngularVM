@@ -1,0 +1,19 @@
+<div class="favorito-container">
+    <h2>Obras Favoritas</h2>
+
+    <ng-container *ngIf="favoriteService.getFavoriteWorks().length > 0; else noFavorites">
+        <div class="card-obra" *ngFor="let obra of favoriteService.getFavoriteWorks()">
+            <div class="obra-container">
+                <h3 class="obra-title">{{ obra.title }}</h3>
+                <p>{{ obra.lines.slice(0, 4).join("\n") }}...</p>
+                <button mat-button color="warn" (click)="removeFromFavorites(obra)">
+            Eliminar
+          </button>
+            </div>
+        </div>
+    </ng-container>
+
+    <ng-template #noFavorites>
+        <p class="no-favorites-message">No hay obras favoritas...</p>
+    </ng-template>
+</div>

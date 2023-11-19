@@ -1,0 +1,25 @@
+<div class="table-container">
+    <div *ngIf="loading" class="loading-overlay">
+        <span>Cargando...</span>
+    </div>
+
+    <h2>
+        Lista de Autores
+        <span class="bell-icon" matTooltip="{{ favoritosCount }} Favoritos" (click)="goToFavoritos()">
+        <mat-icon>notifications</mat-icon>
+        <span class="favorite-notification" *ngIf="favoritosCount > 0">{{ favoritosCount }}</span>
+        </span>
+    </h2>
+
+    <table mat-table [dataSource]="authors" class="mat-elevation-z8">
+        <ng-container matColumnDef="author">
+            <th mat-header-cell *matHeaderCellDef>Autores</th>
+            <td mat-cell *matCellDef="let author; let i = index" (click)="openObrasModal(author)">
+                {{ i + 1 }}. {{ author }}
+            </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="['author']"></tr>
+        <tr mat-row *matRowDef="let row; columns: ['author']"></tr>
+    </table>
+</div>

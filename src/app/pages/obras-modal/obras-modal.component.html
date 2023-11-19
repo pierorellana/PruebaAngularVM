@@ -1,0 +1,12 @@
+<h2>{{ data.author }}</h2>
+<div class="card-obra" *ngFor="let obra of data.obras">
+    <div class="obra-container">
+        <h3 class="obra-title">{{ obra.title }}</h3>
+        <p>
+            {{ obra.lines.slice(0, 3).join(' ') }}...
+            <span class="favorite-icon" (click)="toggleFavorite(obra)">
+        <mat-icon [ngStyle]="{ color: obra.favorite ? 'yellow' : 'black' }">star</mat-icon>
+      </span>
+        </p>
+    </div>
+</div>

@@ -1,0 +1,82 @@
+.table-container {
+    background: linear-gradient(180deg, #2C3E50, #1F2D3D);
+    color: white;
+    padding: 20px;
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    z-index: 9999;
+}
+
+.mat-spinner {
+    margin-right: 8px;
+}
+
+.favorite-notification {
+    font-size: 10px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+    position: relative;
+}
+
+h2>.bell-icon {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.table-container table {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+    margin-bottom: 20px;
+}
+
+.table-container table td {
+    cursor: pointer;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-container {
+    width: 30%;
+}
+
+.carousel {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.obra {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}

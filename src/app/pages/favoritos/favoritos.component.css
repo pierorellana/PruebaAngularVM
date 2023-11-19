@@ -1,0 +1,87 @@
+/* .favorito-container {
+    background: linear-gradient(180deg, #2c3e50, #1f2d3d);
+    color: white;
+    min-height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.card-obra {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.obra-container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(236, 231, 231, 0.3);
+    
+    
+}
+
+.obra-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-left: auto;
+    align-self: center;
+} */
+
+.favorito-container {
+    background: linear-gradient(180deg, #2c3e50, #1f2d3d);
+    color: white;
+    min-height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+button {
+    cursor: pointer;
+    float: right;
+    margin-top: -50px;
+}
+
+.card-obra {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.obra-container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(236, 231, 231, 0.3);
+}
+
+.obra-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.no-favorites-message {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin: auto 0;
+}

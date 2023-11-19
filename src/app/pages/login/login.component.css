@@ -1,0 +1,51 @@
+mat-card {
+    width: 100%;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+mat-form-field {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+}
+
+mat-card-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.background {
+    background: linear-gradient(180deg, #2C3E50, #1F2D3D);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    width: 400px;
+    color: white;
+    text-align: center;
+}
+
+mat-card {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #2C3E50;
+    font-weight: bold;
+}
